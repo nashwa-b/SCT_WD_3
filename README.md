@@ -67,5 +67,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Nashwa B**  
 GitHub: [@nashwa-b](https://github.com/nashwa-b)
+LinkedIn: [Nashwa B](https://www.linkedin.com/in/your-username/)
 
 
