@@ -21,6 +21,7 @@ A simple and interactive web-based Tic Tac Toe game built using HTML, CSS, and J
 ##  Project Structure
 
 tic-tac-toe/
+
 ├── index.html
 ├── style.css
 └── script.js
@@ -67,6 +68,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Nashwa B**  
 GitHub: [@nashwa-b](https://github.com/nashwa-b)
-LinkedIn: [Nashwa B](https://www.linkedin.com/in/your-username/)
+LinkedIn: [Nashwa B](https://www.linkedin.com/in/nashwab)
 
 
