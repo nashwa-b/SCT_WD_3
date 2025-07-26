@@ -23,7 +23,9 @@ A simple and interactive web-based Tic Tac Toe game built using HTML, CSS, and J
 tic-tac-toe/
 
 ├── index.html
+
 ├── style.css
+
 └── script.js
 
 ---
