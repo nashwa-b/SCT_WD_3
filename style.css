@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#game-container {
+    background: rgba(30, 30, 60, 0.95);
+    border-radius: 18px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    padding: 40px 32px 32px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 350px;
+}
+
+h1 {
+    text-align: center;
+    color: #BF00FF;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+    font-size: 2.3em;
+    text-shadow: 0 0 10px #BF00FF, 0 0 20px #BF00FF;
+    display: block;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 8px;
+    justify-content: center;
+    margin: 18px 0 10px 0;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 2px solid #7d7d7d;
+    border-radius: 12px;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.cell:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0 0 12px #00FFD0;
+}
+
+#status {
+    font-size: 1.3em;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    color: #00FFFF;
+    text-shadow: 0 0 5px #00FFFF,
+                 0 0 10px #00FFFF,
+                 0 0 15px #00FFFF,
+                 0 0 20px #00FFFF;
+    font-family: 'Orbitron', sans-serif;
+    min-height: 32px;
+}
+
+button {
+    background: linear-gradient(90deg, #BF00FF 0%, #00FFD0 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 32px;
+    font-size: 1.1em;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: background 0.2s, transform 0.2s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #00FFD0 0%, #BF00FF 100%);
+    transform: scale(1.05);
+}
+
+.x-turn {
+    color: #FF0080;
+    font-weight: bold;
+    text-shadow: 0 0 8px #FF0080, 0 0 16px #FF0080;
+    letter-spacing: 2px;
+    font-size: 1.4em;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+.o-turn {
+    color: #00FFD0;
+    font-weight: bold;
+    text-shadow: 0 0 8px #00FFD0, 0 0 16px #00FFD0;
+    letter-spacing: 2px;
+    font-size: 1.4em;
+    transition: color 0.3s, text
+}
+.mode-buttons {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 18px;
+    justify-content: center;
+}
+.mode-buttons button.active {
+    border: 2px solid #00FFD0;
+    box-shadow: 0 0 8px #00FFD0;
+}
+
