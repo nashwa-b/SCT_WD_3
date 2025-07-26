@@ -37,7 +37,7 @@ tic-tac-toe/
 
 ##  Screenshots
 
-![Game Screenshot](URL_TO_YOUR_SCREENSHOT)
+![Game Screenshot](https://github.com/nashwa-b/SCT_WD_3/blob/main/tic-tac-toe%20screenshot.png.png?raw=true)
 
 > _Replace `URL_TO_YOUR_SCREENSHOT` with the actual image link or upload a screenshot to GitHub and use its link._
 
